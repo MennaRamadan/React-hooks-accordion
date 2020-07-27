@@ -3,7 +3,7 @@ import React , {useState} from 'react';
 const Accordion = ({items})=> {
 
     //THIS NOT MEANS CREATING ARRAY, BUT ACCESS FIRST ELEMENT IN useSate IN ACTIVEINDEX AND SECOND ONE IN SETACTIVEINDEX
-    //FIRST ONEIS PIEACE OF STATE AND SECOND ONE IS FUNCTION TO UPDATE THIS PIEACE
+    //FIRST ONE IS PIEACE OF STATE AND SECOND ONE IS FUNCTION TO UPDATE THIS PIEACE OF STATE
     const [activeIndex, setActiveIndex] = useState(null);
 
     const onTitleClicked = (index) => {
